@@ -1,0 +1,53 @@
+header
+{
+	background: #434343;
+	color: white;
+	margin: 0;
+	padding: 0.5em;
+}
+header:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+header figure
+{
+	float: left;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 85px 1em 100px;
+	display: block;
+}
+header #avatar
+{
+	position:  absolute;
+	top: 0;
+	right: 0;
+	margin: 1em 1em 0 0;
+}
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+header #avatar figcaption:after
+{
+	content: "\e001";
+	font-family: "icomoon";
+	font-size: 0.7em;
+	opacity: 0.5;
+}
+header #avatar img
+{
+	float: left;
+	width: 50px;
+}
+header #logo img
+{
+	width: 80px;
+}
