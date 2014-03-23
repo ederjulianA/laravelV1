@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'auth',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => 'mysql16.000webhost.com',
+			'database'  => 'a5373351_fifa2',
+			'username'  => 'a5373351_eder',
+			'password'  => 'demetria10',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
