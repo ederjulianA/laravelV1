@@ -23,7 +23,7 @@
 		<figure id="logo">
 			<img src="{{asset('img/ederjuliana.png') }}" />
 		</figure>
-		<h1 id="titulo_header">FTM iLovato</h1>
+		<h1 id="titulo_header">FTM iLovato---laravelFramework</h1>
 		<figure id="avatar">
 			<img src="{{asset('img/ederjuliana.png') }}" />
 			<figcaption></figcaption>
