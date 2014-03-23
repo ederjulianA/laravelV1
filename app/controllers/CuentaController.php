@@ -273,6 +273,7 @@
 				$email		=	Input::get('email');
 				$username	=	Input::get('username');
 				$password	=	Input::get('password');
+				$password_temp = "";
 				// CREAMOS EL CODIGO DE ACTIVACION
 
 				$code		=	str_random(60);
