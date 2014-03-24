@@ -23,25 +23,33 @@
 		<figure id="logo">
 			<img src="{{asset('img/ederjuliana.png') }}" />
 		</figure>
-		<h1 id="titulo_header">FTM iLovato---laravelFramework</h1>
+		<h1 id="titulo_header">FTM iLovato</h1>
 		<figure id="avatar">
 			<img src="{{asset('img/ederjuliana.png') }}" />
 			<figcaption></figcaption>
 		</figure>
-	
-		
-	</header>
-
-	@include('plantilla.navegation')
-	@if(Session::has('global'))
-	<div class="alert alert-info">
+					@if(Session::has('global'))
+	<div class="global-ms">
 		<p>{{ Session::get('global') }}</p>
 	
 	</div>
 	
-@endif
+	@endif
+		
+	</header>
+
+	@include('plantilla.navegation')
+	
 	
 	@yield('content')
+	<aside class="contenido-lateral">
+	
+	</aside>
 	{{ HTML::script('assets/js/bootstrap.min.js')}}
+
+		<footer class="pie-de-pagina">
+			<p><strong>Eder Alvarez ®</strong></p>
+		
+		</footer>
 </body>
 </html>
