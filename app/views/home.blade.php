@@ -56,7 +56,26 @@
 		<a href="https://mega.co.nz/#!UpwmjCiY!pAgbr6L9kG23rwFSfDWiwQX7Y0e7PHxMhAh6Zm0SMu8"> Front-end p-27</a> <br>-->
 			
 	@else
-		<p>TU no estas autenticado</p>
+			<section class="contenido">
+			<article class="post">
+				<h2>Sistema de Log-in Creado con <span class="laravel">Laravel</span></h2>
+				<p>
+					Con fines de aprendizaje se está creando un sistema de Log in utilizando <strong><a href="http://laravel.com/" target="_blank">laravel</a> </strong> framework en su versión 4.1. El aplicativo cuenta con un repositorio en github del cual se hace el deploy hacia <strong><a href="https://heroku.com/" target="_blank">Heroku.</a> </strong> 
+				</p>
+			</article>
+			<article class="post">
+				<h2>Por ahora...</h2>
+				<p>
+					<h3>Crear cuenta</h3>
+					
+						<p>Se validan los campos usando el método <strong>Validator</strong>  de laravel, Se hace la consulta en la base de datos (MySql) para verificar que el email no exista. Una vez Validado esto, Se procede a guardar los datos en la base de datos y posteriormente se envía un email con un link de activación a la dirección especificada por el usuario, Utilizando el método Mail de larval, el cual nos permite Usar como servido SMPT nuestra cuenta de gmail.</p>
+						<h3>Activar Cuenta</h3>
+						<p>Una vez el usuario accede a la URL que le hemos enviado al correo, procedemos a validar el código de activación, Si coincide con el guardado en la base de datos, se activa la cuenta del Usuario. </p>
+						<h3>El usuario</h3>
+						<p>Ya activada la cuenta el usuario podrá hacer un login y podrá actualizar su contraseña. El módulo de recuperación de contraseña ya se encuentra activo, el cual funciona vía email.</p>
+										
+				</p>
+			</article>
 		
 
 
