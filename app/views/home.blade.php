@@ -76,6 +76,8 @@
 										
 				</p>
 			</article>
+
+		</section>	
 		
 
 
