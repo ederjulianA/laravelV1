@@ -2,11 +2,11 @@
 
 
 @section('content')
-
-	<form action="{{ URL::route('cuenta-cambiar-pass-post') }}" method="post">
+<section class="contenido">
+		<form action="{{ URL::route('cuenta-cambiar-pass-post') }}" method="post">
 
 		<div class="field">
-			Pass Vieja :<input type="password" name="old_password">
+			<label for="old_password">Pass Vieja :</label> <input type="password" name="old_password">
 
 			@if($errors->has('old_password'))
 				{{  $errors->first('old_password') }}
@@ -34,5 +34,9 @@
 
 		<input type="submit" value="cambiar">
 		{{ Form::token() }}	
-	</form>
+	</form>	
+
+</section>
+
+	
 @stop
