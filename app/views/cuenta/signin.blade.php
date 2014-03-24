@@ -2,11 +2,12 @@
 
 @section('content')
 
-	<form action="{{ URL::route('cuenta-sign-in-post') }}" method="post">
+<section class="contenido">
+			<form action="{{ URL::route('cuenta-sign-in-post') }}" method="post">
 		
 
 		<div class="field">
-			Email: <input type="text" name="email" {{  (Input::old('email')) ? 'value="'. Input::old('email').'"' : ''    }} >
+			<label for="email">Email:</label>  <input type="text" name="email" {{  (Input::old('email')) ? 'value="'. Input::old('email').'"' : ''    }} >
 			@if($errors->has('email'))
 				{{ $errors->first('email') }}
 			@endif	
@@ -14,7 +15,7 @@
 		</div>
 
 		<div class="field">
-			Password: <input type="password" name="password">
+			<label for="password">Password:</label>  <input type="password" name="password">
 				@if($errors->has('password'))
 				{{ $errors->first('password') }}
 			@endif
@@ -29,8 +30,13 @@
 			
 		</div>
 
-		<input type="submit" value="Iniciar Sesion">
+		<input type="submit" value="Iniciar Sesion" class="LogInBtn">
 
 		{{ Form::token()}}
 	</form>
+	
+
+</section>
+
+
 @stop
