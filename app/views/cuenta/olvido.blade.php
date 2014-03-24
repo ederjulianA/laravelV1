@@ -3,7 +3,8 @@
 
 @section('content')
 
-	Recuperar contrasena
+<section class="contenido">
+		Recuperar contrasena
 
 	<form action="{{ URL::route('cuenta-olvido-pass-post') }}" method="post">
 		<div class="field">
@@ -17,4 +18,8 @@
 		<input type="submit" value="Recuperar">
 		{{ Form::token()}}
 	</form>
+	
+</section>
+
+	
 @stop
