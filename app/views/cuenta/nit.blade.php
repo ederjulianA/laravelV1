@@ -1,7 +1,8 @@
 @extends('plantilla.main')
 
 @section('content')
-	TU nit Actual   {{ $user->nit->nit_unico}}
+<section class="contenido">
+			TU nit Actual   {{ $user->nit->nit_unico}}
 
 	<div class="field">
 		<h2>Registrar Nuevo Nit</h2>
@@ -19,4 +20,7 @@
 		</form>
 		
 	</div>
+	
+</section>
+
 @stop
