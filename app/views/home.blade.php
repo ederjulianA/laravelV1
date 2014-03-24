@@ -3,11 +3,11 @@
 
 @section('content')
 	@if(Auth::check())
+		<section class="contenido">
 		<p> HOLA {{ Auth::user()->username }}. </p>
-		<div class="container-fluid">
-			<div class="row">
 
-			<div class="col-xs-12 .col-md-8">
+	</section>
+		
 				
 			
 		<!--<a href="https://mega.co.nz/#!8xhWBYDI!lhX6bLwnXa6b6rq_BILzc-y-qGNtVj6scdr2Nhfue0Y"> Front-end p-1</a> <br>
@@ -54,11 +54,7 @@
 		<a href="https://mega.co.nz/#!V5JRXJLB!XVadns0-uIAOtVfV8HnDJsQ_kG1W-EI4YGEyXn-zprY"> Front-end p-26</a> <br>
 
 		<a href="https://mega.co.nz/#!UpwmjCiY!pAgbr6L9kG23rwFSfDWiwQX7Y0e7PHxMhAh6Zm0SMu8"> Front-end p-27</a> <br>-->
-			</div>
-				
-			</div>
 			
-		</div>
 	@else
 		<p>TU no estas autenticado</p>
 		
