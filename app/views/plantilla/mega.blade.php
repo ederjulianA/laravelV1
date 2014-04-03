@@ -25,6 +25,8 @@
 	<!-- Endless -->
 	{{ HTML::style('css/endless.min.css', array('media' => 'screen'))}}
 	{{ HTML::style('css/endless-skin.css', array('media' => 'screen'))}}
+	{{ HTML::style('css/endless-landing.min.css', array('media' => 'screen'))}}
+
 	
 </head>
 <body class="overflow-hidden">
@@ -159,7 +161,7 @@
 									<i class="fa fa-gift fa-lg"></i> 
 								</span>
 								<span class="text">
-									Promosiones
+									Promociones
 								</span>
 								<span class="menu-hover"></span>
 							</a>
@@ -196,7 +198,49 @@
 		<!-- ############################################################################################################## MENU ALINEADO A LA IZQUIERDA######################################-->
 
 		@yield('content')
+
+
+
+
+
+		<!--  FOOTER###############################3-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 padding-md">
+						
+					</div>
+					<div class="col-sm-3 padding-md">
+						<p class="font-lg">Sobre Megalopolis</p>
+						<p><small>Descripcion Breve de la Compañia (Megalopolis)</small></p>
+					</div><!-- /.col -->
+					
+					<div class="col-sm-3 padding-md">
+						<p class="font-lg">Mantente Informado</p>
+						<a href="#" class="social-connect tooltip-test facebook-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="social-connect tooltip-test twitter-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="social-connect tooltip-test google-plus-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+						<a href="#" class="social-connect tooltip-test rss-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Rss feed"><i class="fa fa-rss"></i></a>
+						<a href="#" class="social-connect tooltip-test tumblr-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Tumblr"><i class="fa fa-tumblr"></i></a>
+						<a href="#" class="social-connect tooltip-test dribbble-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Dribbble"><i class="fa fa-dribbble"></i></a>
+						<a href="#" class="social-connect tooltip-test linkedin-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="#" class="social-connect tooltip-test pinterest-hover pull-left m-right-xs m-bottom-xs" data-toggle="tooltip" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+					</div><!-- /.col -->
+					<div class="col-sm-3 padding-md">
+						<p class="font-lg">Contactanos</p>
+						Email : soporte@megalopolis.com
+						<div class="seperator"></div>
+						<a class="btn btn-info"><i class="fa fa-envelope"></i> Soporte</a>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div>
+		</footer>
+
+
 </div>
+
+
 
 
 
