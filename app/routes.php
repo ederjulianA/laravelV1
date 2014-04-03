@@ -11,6 +11,20 @@ Route::get('/megalopolis', array(
 		'uses' => 'HomeController@getMega'
 	));
 
+Route::get('/mega-index', array(
+		'as' => 'indexMega',
+		'uses' => 'HomeController@indexMega'
+	));
+
+Route::get('/mega-login', array(
+		'as' => 'login',
+		'uses' => 'HomeController@login'
+	));
+
+
+
+
+
 Route::get('/user/{username}', array(
 		'as' => 'profile-user',
 		'uses' => 'PerfilController@user'
