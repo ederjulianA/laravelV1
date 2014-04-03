@@ -6,7 +6,7 @@
 		
 
 
-
+		<!--  INICIO MENU DE TABS ###########################################-->
 		<ul class="tab-bar grey-tab">
 				<li class="active">
 					<a href="#overview" data-toggle="tab">
@@ -41,8 +41,28 @@
 							Nuevo Producto
 						</a>
 					</li>
+
+					<li>
+						<a href="#Ntab" data-toggle="tab">
+							<span class="block text-center">
+								<i class="fa fa-tags fa-2x"></i> 
+							</span>
+							Nuevo tab
+						</a>
+					</li>
+
+						<li>
+						<a href="#Npromo" data-toggle="tab">
+							<span class="block text-center">
+								<i class="fa fa-gift fa-2x"></i> 
+							</span>
+							Nueva Promosion
+						</a>
+					</li>
 				
 		</ul>
+
+		<!-- FIN DE MENU DE TABS ####################################################################################33 -->
 
 		<div class="padding-md">
 				<div class="row">
@@ -85,6 +105,7 @@
 								</div><!-- /.row -->
 							</div>
 						</div><!-- /panel -->
+
 						
 					
 					</div><!-- /.col -->
@@ -106,6 +127,7 @@
 											<div class="panel-heading">
 												<i class="fa fa-book"></i> <h2>Datos de Cpntacto</h2>
 											</div>
+											<!--  LISTA DATOS DE CONTACTO DE LA EMPRESA################################-->
 											<ul class="list-group"> 
 												<li class="list-group-item"> 
 													<p>Telefonos : <a href="#" class="text-info">6345990 - 6204050</a>			</p> 
@@ -130,6 +152,8 @@
 												</li> 
 											
 											</ul><!-- /list-group -->
+
+											<!--  FIN LISTA DATOS DE CONTACTO DE LA EMPRESA################################-->
 										</div><!-- /panel -->
 									</div><!-- /.col -->
 									<div class="col-md-6">
@@ -139,6 +163,8 @@
 											</div>
 											<iframe width="250" height="200" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Bucaramanga+-+Santander,+Colombia+carrera+24+%23+18-76&amp;aq=&amp;sll=7.11331,-73.120468&amp;sspn=0.369978,0.676346&amp;ie=UTF8&amp;hq=&amp;hnear=Carrera+24+%23+18-76,+Bucaramanga,+Santander,+Colombia&amp;t=m&amp;z=14&amp;ll=7.13022,-73.122221&amp;output=embed"></iframe><br /><small><a href="http://maps.google.es/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Bucaramanga+-+Santander,+Colombia+carrera+24+%23+18-76&amp;aq=&amp;sll=7.11331,-73.120468&amp;sspn=0.369978,0.676346&amp;ie=UTF8&amp;hq=&amp;hnear=Carrera+24+%23+18-76,+Bucaramanga,+Santander,+Colombia&amp;t=m&amp;z=14&amp;ll=7.13022,-73.122221" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
 										</div><!-- /panel -->
+
+										<!-- FIN DE CONTENEDOR DE UBICACION GOOGLE MAPS-->
 										<div class="panel panel-overview fadeInUp animation-delay5">
 											<div class="overview-icon bg-success">
 												<i class="fa fa-shopping-cart"></i>
@@ -159,6 +185,9 @@
 										</div><!--/ panel -->
 									</div><!-- /.col -->
 								</div><!-- /.row -->
+
+
+								<!-- ############################################## INICIO DE TABS##########################-->
 								
 							</div><!-- /tab1 -->
 							<div class="tab-pane fade" id="edit">
@@ -274,6 +303,62 @@
 							</div><!-- /tab3 -->
 
 
+							<div class="tab-pane fade" id="Ntab">
+								
+								<div class="row">
+									<div class="panel panel-info pull-right">
+										<div class="panel-body">
+											Ultima Actualizacion Abril 2, 2014
+										</div>
+									</div><!-- /panel -->
+								</div><!-- /.row -->
+								
+								<div class="panel panel-default">
+									<form class="form-horizontal form-border">
+										<div class="panel-heading">
+											<h2>Crear Nuevo Tab</h2>
+										</div>
+										<div class="panel-body">
+											<div class="form-group">
+												<label class="control-label col-md-2">Sector</label>												
+												<div class="col-md-10">
+													<select>
+														<option>- Escoger Sector -</option>
+													</select>
+												</div><!-- /.col -->
+											</div><!-- /form-group -->
+											
+											<div class="form-group">
+												<label class="control-label col-md-2">Nombre Tab</label>
+												<div class="col-md-10">
+													<input type="text" class="form-control input-sm" value="">
+												</div><!-- /.col -->
+											</div><!-- /form-group -->
+										
+											<div class="form-group">
+												<label class="control-label col-md-2">Descripcion Breve</label>
+												<div class="col-md-10">
+													<textarea class="form-control" rows="3"></textarea>
+												</div><!-- /.col -->
+											</div><!-- /form-group -->
+
+										
+										
+										</div>
+										<div class="panel-footer">
+											<div class="text-right">
+												<button class="btn btn-sm btn-success">	Crear Tab</button>
+												
+											</div>
+										</div>
+									</form>
+								</div><!-- /panel -->
+							
+								
+							
+							</div><!-- /tab4 -->
+
+
 
 							<div class="tab-pane fade" id="Nproducto">
 								
@@ -329,45 +414,45 @@
 											<div class="form-group">
 												<label class="control-label col-md-2"> Tabs</label>
 												<div class="panel panel-default">
-					<div class="panel-heading">
-						Escoger Tabs
-					</div>
-					<div class="panel-body relative">
-						<select multiple="multiple" id="selectedBox1" class="select-box pull-left form-control">
-							<option value="1">Apple</option>
-							<option value="2">Banana</option>
-							<option value="3">Cola</option>
-							<option value="4">Dog</option>
-							<option value="5">Elephant</option>
-						</select>		
+								<div class="panel-heading">
+										Escoger Tabs
+								</div>
+								<div class="panel-body relative">
+									<select multiple="multiple" id="selectedBox1" class="select-box pull-left form-control">
+										<option value="1">Apple</option>
+										<option value="2">Banana</option>
+										<option value="3">Cola</option>
+										<option value="4">Dog</option>
+										<option value="5">Elephant</option>
+									</select>		
 
-						<div class="select-box-option">
-							<a class="btn btn-sm btn-default" id="btnRemove">
-								<i class="fa fa-angle-left"></i>
-							</a>
-							<a class="btn btn-sm btn-default" id="btnSelect">
-								<i class="fa fa-angle-right"></i>
-							</a>
-							<div class="seperator"></div>
-							<a class="btn btn-sm btn-default" id="btnRemoveAll">
-								<i class="fa fa-angle-double-left"></i>
-							</a>
-							<a class="btn btn-sm btn-default" id="btnSelectAll">
-								<i class="fa fa-angle-double-right"></i>
-							</a>
-						</div>
+									<div class="select-box-option">
+										<a class="btn btn-sm btn-default" id="btnRemove">
+											<i class="fa fa-angle-left"></i>
+										</a>
+										<a class="btn btn-sm btn-default" id="btnSelect">
+											<i class="fa fa-angle-right"></i>
+										</a>
+										<div class="seperator"></div>
+										<a class="btn btn-sm btn-default" id="btnRemoveAll">
+											<i class="fa fa-angle-double-left"></i>
+										</a>
+										<a class="btn btn-sm btn-default" id="btnSelectAll">
+											<i class="fa fa-angle-double-right"></i>
+										</a>
+									</div>
 
-						<select multiple="multiple" id="selectedBox2" class="select-box pull-right form-control">
-							<option>Alabama</option>
-							<option>Montana</option>
-							<option>New Jersey</option>
-							<option>New York</option>
-							<option>Texas</option>
-						</select>		
-					</div>
-				</div><!-- /panel -->
+									<select multiple="multiple" id="selectedBox2" class="select-box pull-right form-control">
+										<option>Alabama</option>
+										<option>Montana</option>
+										<option>New Jersey</option>
+										<option>New York</option>
+										<option>Texas</option>
+									</select>		
+								</div>
+								</div><!-- /panel -->
 												
-		</div>
+						</div>
 										
 											
 
@@ -386,7 +471,64 @@
 							
 								
 							
-							</div><!-- /tab4 -->
+							</div><!-- /tab5 -->
+
+
+
+
+
+
+
+								<div class="tab-pane fade" id="Npromo">
+								
+								<div class="row">
+									<div class="panel panel-info pull-right">
+										<div class="panel-body">
+											Ultima Actualizacion Abril 2, 2014
+										</div>
+									</div><!-- /panel -->
+								</div><!-- /.row -->
+								
+								<div class="panel panel-default">
+									<form class="form-horizontal form-border">
+										<div class="panel-heading">
+											<h2>Nueva Promocion</h2>
+										</div>
+										<div class="panel-body">
+
+
+											<div class="form-group">
+												<label class="control-label col-md-2">Condiciones y restricciones</label>
+												<div class="col-md-10">
+													<input type="text" class="form-control input-sm" value="">
+												</div><!-- /.col -->
+											</div><!-- /form-group -->
+											<div class="form-group">
+												<label class="control-label col-md-2">Descripcion Promo</label>												
+												<div class="col-md-10">
+													<textarea class="form-control" rows="3"></textarea>
+												</div><!-- /.col -->
+											</div><!-- /form-group -->
+											
+											
+										
+										
+
+										
+										
+										</div>
+										<div class="panel-footer">
+											<div class="text-right">
+												<button class="btn btn-sm btn-success">	Actualizar</button>
+												
+											</div>
+										</div>
+									</form>
+								</div><!-- /panel -->
+							
+								
+							
+							</div><!-- /tab6 -->
 							
 						</div><!-- /tab-content -->
 					</div><!-- /.col -->
