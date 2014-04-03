@@ -6,6 +6,11 @@ Route::get('/', array(
 		'uses' => 'HomeController@home'
 	));
 
+Route::get('/megalopolis', array(
+		'as' => 'megalopolis',
+		'uses' => 'HomeController@getMega'
+	));
+
 Route::get('/user/{username}', array(
 		'as' => 'profile-user',
 		'uses' => 'PerfilController@user'
