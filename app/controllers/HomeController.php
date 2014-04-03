@@ -15,6 +15,14 @@ class HomeController extends BaseController {
 
 		return View::make('mega.index');
 	}
+
+	public function indexMega(){
+		return View::make('mega.inicio');
+	}
+
+	public function login(){
+		return View::make('mega.login');
+	}
 }	
 
 
