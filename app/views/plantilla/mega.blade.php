@@ -8,6 +8,9 @@
 
     <!-- Bootstrap core CSS -->
     {{ HTML::style('bootstrap/css/bootstrap.min.css', array('media' => 'screen'))}}
+
+     <!-- My styles -->
+    {{ HTML::style('css/mios.css', array('media' => 'screen'))}}
     
 	
 	<!-- Font Awesome -->
@@ -252,6 +255,9 @@
 	
 	<!-- Jquery -->
 	{{ HTML::script('js/jquery-1.10.2.min.js')}}
+
+	<!-- CARRUSEL -->
+	{{ HTML::script('js/carousel.js')}}
 	
 	
 	<!-- Jquery UI -->
