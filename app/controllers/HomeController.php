@@ -23,6 +23,11 @@ class HomeController extends BaseController {
 	public function login(){
 		return View::make('mega.login');
 	}
+
+	public function getCatalogo(){
+
+		return View::make('mega.catalogo');
+	}
 }	
 
 

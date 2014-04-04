@@ -21,6 +21,11 @@ Route::get('/mega-login', array(
 		'uses' => 'HomeController@login'
 	));
 
+Route::get('/mega-catalogo', array(
+		'as' => 'mega-catalogo',
+		'uses' => 'HomeController@getCatalogo'
+	));
+
 
 
 
