@@ -32,6 +32,7 @@ Route::get('/mega-favs', array('as' => 'mega-favs', 'uses' => 'HomeController@ge
 
 Route::get('mega-subs', array('as' => 'mega-subs', 'uses' => 'HomeController@getSubs'));
 
+Route::get('mega-catv2',array('as' => 'mega-catv2', 'uses' => 'HomeController@getCatv2'));
 
 Route::get('/user/{username}', array(
 		'as' => 'profile-user',
