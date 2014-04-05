@@ -4,8 +4,6 @@
 
 		<div id="main-container">
 		
-
-
 		<!--  INICIO MENU DE TABS ###########################################-->
 		<ul class="tab-bar grey-tab">
 				<li class="active">

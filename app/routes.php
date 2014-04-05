@@ -26,8 +26,11 @@ Route::get('/mega-catalogo', array(
 		'uses' => 'HomeController@getCatalogo'
 	));
 
+Route::get('/mega-info', array('as' =>'mega-catalogo','uses' => 'HomeController@getInformacion'));
 
+Route::get('/mega-favs', array('as' => 'mega-favs', 'uses' => 'HomeController@getFavs'));
 
+Route::get('mega-subs', array('as' => 'mega-subs', 'uses' => 'HomeController@getSubs'));
 
 
 Route::get('/user/{username}', array(

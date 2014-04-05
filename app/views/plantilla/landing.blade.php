@@ -112,5 +112,8 @@
 
 	<!-- Endless -->
 	{{ HTML::script('js/endless/endless.js')}}
+
+
+	@yield('scripts')
 </body>
 </html>

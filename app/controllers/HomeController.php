@@ -28,6 +28,20 @@ class HomeController extends BaseController {
 
 		return View::make('mega.catalogo');
 	}
+
+	public function getInformacion(){
+		return View::make('mega.informacion');
+	}
+
+	public function getFavs()
+	{
+		return View::make('mega.favoritos');
+	}
+
+	public function getSubs()
+	{
+		return View::make('mega.subscripciones');
+	}
 }	
 
 
