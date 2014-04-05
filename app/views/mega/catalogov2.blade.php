@@ -109,7 +109,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -123,7 +123,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -137,7 +137,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -160,7 +160,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -174,7 +174,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -188,7 +188,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -204,7 +204,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -223,7 +223,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -237,7 +237,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -253,7 +253,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -272,7 +272,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -286,7 +286,7 @@
 											<div class="caption">
 											<h4>Titulo Producto</h4>
 											<p>Precio : $20000</p>
-											<p> <a href="#" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
+											<p> <a href="#simpleModal" role="button" data-toggle="modal" class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a></p>
 								
 											</div>
 							
@@ -308,4 +308,42 @@
 				</div>
 		</div>
 	</div>
+
+	<!--Modal-->
+		<div class="modal fade" id="simpleModal">
+  			<div class="modal-dialog">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4>Produto</h4>
+      				</div>
+				    <div class="modal-body">
+				      <div class="search-container">
+									<div class="panel panel-default">
+										<div class="panel-body">	
+											<div class="search-header">
+												<a href="#" class="h4 inline-block">Producto 1</a>
+
+												<strong>($20.000 COP)</strong>
+											 
+											</div>
+											
+											<div class="seperator"></div>
+											
+											<p class="m-top-sm">
+												<a href="#" class="pull-left   m-right-sm"> 
+													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
+												</a> Descripcion del producto seleccionado
+												</p>
+																					
+											<div class="text-right">
+												<a class="btn btn-info"><i class="fa fa-heart"></i> Favoritos</a>
+											</div>
+										</div>
+									</div><!-- /panel -->
+								</div><!-- /search-container -->
+				    </div>
+			  	</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 @stop

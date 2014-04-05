@@ -43,7 +43,7 @@ class HomeController extends BaseController {
 		return View::make('mega.subscripciones');
 	}
 	 function getCatv2(){
-	 	return View::make('mega.catalogov2')	 	
+	 	return View::make('mega.catalogov2'); 	
 	 }
 }	
 
