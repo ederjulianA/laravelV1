@@ -1,17 +1,17 @@
 <?php
 
 
-Route::get('/', array(
+/*Route::get('/', array(
 		'as' => 'home',
 		'uses' => 'HomeController@home'
-	));
+	));*/
 
 Route::get('/megalopolis', array(
 		'as' => 'megalopolis',
 		'uses' => 'HomeController@getMega'
 	));
 
-Route::get('/mega-index', array(
+Route::get('/', array(
 		'as' => 'indexMega',
 		'uses' => 'HomeController@indexMega'
 	));
