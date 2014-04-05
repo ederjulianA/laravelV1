@@ -25,13 +25,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
@@ -50,13 +50,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
@@ -75,13 +75,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
@@ -102,13 +102,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
@@ -127,13 +127,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
@@ -152,13 +152,13 @@
 											<p class="m-top-sm">
 												<a href="#" class="pull-left   m-right-sm"> 
 													<img src="{{asset('img/prod2.jpg') }}" alt="Author" width="100px" height="100px"> 
-												</a> Es típico el asado que se hace en hoyos hechos especialmente para tal fin. Tiene sus ventajas y es que en primer lugar se reduce el consumo de leña, ya que el calor se concentra mucho más
+												</a> Productora personalizada con gran experiencia en el mercado y amplia trayectoria, artistas como cafe tacubay amplia trayectoria, artistas como cafe tacuba
 												</p>
 																					
 											<div class="text-right">
 												<a href="#" >Ir al catalogo</a> |
-												<a href="#" >Emviar Mensaje</a> |
-												<a class="btn btn-sm ">Promociones</a>
+												<a href="#" >Enviar Mensaje</a> |
+												<a href="#">Promociones</a>
 											</div>
 										</div>
 									</div><!-- /panel -->
