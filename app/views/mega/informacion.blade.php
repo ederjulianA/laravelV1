@@ -10,20 +10,20 @@
 							<div class="col-md-6">
 								<h2>Información de Contacto</h2>
 								<address>
-								  <strong>Twitter, Inc.</strong><br>
-									795 Folsom Ave, Suite 600<br>
-									San Francisco, CA 94107<br>
+								  <strong>Mercagan, Inc.</strong><br>
+									Carrera 35 # 20-12<br>
+									Bucaramanga, SA <br>
 									<div class="seperator"></div>
-									<strong>Phone : <span class="theme-font">(123) 456-7890</span></strong><br>
-									<strong>Email : <span class="theme-font">endless.themes@gmail.com</span></strong><br>
-									<strong>Website : <span class="theme-font">Your website</span></strong>
+									<strong>Telefono : <span class="theme-font">(123) 456-7890</span></strong><br>
+									<strong>Email : <span class="theme-font">mercagan@email.com</span></strong><br>
+									
 								</address>
 								<hr>
 								<h2>Nombre Empresa</h2>
 								<img src="{{asset('img/prod2.jpg') }}">
 								<hr>
 								<div class="col-md">
-									<h4>We'd Love to Hear From You, Lets Get In Touch!</h4>
+									<h4>Descripcion breve de la empresa</h4>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula.
 									</p>
@@ -37,7 +37,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-													Collapsible Group Item #1
+													Pregunta  #1
 												</a>
 											</h4>
 										</div>
@@ -52,7 +52,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#C2">
-													Collapsible Group Item #1
+													Pregunta #1
 												</a>
 											</h4>
 										</div>
@@ -67,7 +67,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#C3">
-													Collapsible Group Item #1
+													Pregunta #1
 												</a>
 											</h4>
 										</div>

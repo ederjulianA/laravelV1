@@ -26,7 +26,7 @@ Route::get('/mega-catalogo', array(
 		'uses' => 'HomeController@getCatalogo'
 	));
 
-Route::get('/mega-info', array('as' =>'mega-catalogo','uses' => 'HomeController@getInformacion'));
+Route::get('/mega-info', array('as' =>'mega-info','uses' => 'HomeController@getInformacion'));
 
 Route::get('/mega-favs', array('as' => 'mega-favs', 'uses' => 'HomeController@getFavs'));
 
