@@ -45,6 +45,10 @@ class HomeController extends BaseController {
 	 function getCatv2(){
 	 	return View::make('mega.catalogov2'); 	
 	 }
+
+	 public function getEditarPerfil(){
+	 	return View::make('mega.editarPerfil');
+	 }
 }	
 
 

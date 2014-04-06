@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Megalopolis</title>
+	<title>@yield('titulo')</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -108,7 +108,7 @@
 									</a>
 								</li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="#" class="main-link"><i class="fa fa-edit fa-lg"></i> Editar Perfil</a></li>
+								<li><a tabindex="-1" href="{{ URL::route('mega-editar-perfil')}}" class="main-link"><i class="fa fa-edit fa-lg"></i> Editar Perfil</a></li>
 								<li><a tabindex="-1" href="{{ URL::route('mega-favs')}}" class="main-link"><i class="fa fa-heart fa-lg"></i> Mis Favoritos</a></li>
 								<li><a tabindex="-1" href="{{ URL::route('mega-subs')}}" class="main-link"><i class="fa fa-check fa-lg"></i> Mis Suscripciones</a></li>
 								
