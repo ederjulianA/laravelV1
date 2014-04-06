@@ -53,11 +53,19 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'    => 'mysql',
+			/*'driver'    => 'mysql',
 			'host'      => 'db4free.net:3306',
 			'database'  => 'ederalvarez',
 			'username'  => 'eder',
 			'password'  => 'demetria',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',*/
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'auth',
+			'username'  => 'root',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

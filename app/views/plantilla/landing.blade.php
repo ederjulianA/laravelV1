@@ -54,7 +54,9 @@
 							<li>
 								<a href="{{ URL::route('indexMega')}}" class="top-link">Home</a>
 							</li>
-							<li> 
+
+							@if(Auth::check())
+								<li> 
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 								<i class="fa fa-bell fa-lg"></i>
 								<span class="notification-label bounceIn animation-delay6">7</span>
@@ -118,6 +120,9 @@
 								<li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i>Cerrar Sesion</a></li>
 							</ul>
 							</li>
+
+							@endif
+							
 
 							
 						</ul>
