@@ -63,6 +63,66 @@
 				
 				
 			</div>
+			<div class="row">
+				<div class="col-sm-10">
+
+					@if($errors->has())
+							<div id="form-errors">
+								<p>Errores en el formulario :</p>
+								<ul>
+									@foreach($errors->all() as $error)
+										<li>{{$error }}</li>
+									@endforeach
+								</ul>
+				
+							</div> <!--  end form errors-->
+							@endif
+						<form method="post" action="{{ URL::route('crear-usuario-post')}}">
+							<div class="form-group">
+								<label for="username">Nombre</label>
+								<input type="text" class="form-control input-sm" placeholder="Escribe tu nombre" name="username" {{ (Input::old('username')) ? 'value="'. e(Input::old('username')).'"' : '' }}>
+							</div><!-- /form-group -->
+
+							
+
+							<div class="form-group">
+								<label>Correo Electronico</label>
+								<input type="email" class="form-control input-sm" placeholder="ejemplo@ejemplo.com" name="email" {{ (Input::old('email')) ? 'value="'. e(Input::old('email')).'"' : '' }}>
+							</div><!-- /form-group -->
+
+							<div class="form-group">
+								<label for="tipo">Registrarme Como:</label>
+								<select name="tipo" {{ (Input::old('tipo')) ? 'value="'. e(Input::old('tipo')).'"' : '' }}>
+									<option value="1"> Usuario </option>
+									<option value="2"> Empresa </option>
+									
+								</select>
+							</div><!-- /form-group -->
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Contraseña</label>
+										<input type="password" class="form-control input-sm" placeholder="******" name="password">
+									</div>
+								</div><!-- /.col -->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Repite Contraseña</label>
+										<input type="password" class="form-control input-sm" placeholder="******" name="password_confirmation">
+									</div>
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+
+							<input type="submit" value="Registrar" class="btn btn-success btn-sm">
+
+							{{ Form::token()}}
+
+							</form>
+					
+				</div>
+				
+			</div>
 				
 		</div>
 
@@ -73,48 +133,10 @@
       				<div class="modal-header">
         				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h4>Nuevo Usuario</h4>
+							
       				</div>
-				    <div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label>Nombre</label>
-								<input type="text" class="form-control input-sm" placeholder="Escribe tu nombre">
-							</div><!-- /form-group -->
-
-							<div class="form-group">
-								<label>Apellido</label>
-								<input type="text" class="form-control input-sm" placeholder="Escribe tu Apellido">
-							</div><!-- /form-group -->
-
-							<div class="form-group">
-								<label>Correo Electronico</label>
-								<input type="email" class="form-control input-sm" placeholder="ejemplo@ejemplo.com">
-							</div><!-- /form-group -->
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Contraseña</label>
-										<input type="password" class="form-control input-sm" placeholder="******">
-									</div>
-								</div><!-- /.col -->
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Repite Contraseña</label>
-										<input type="password" class="form-control input-sm" placeholder="******">
-									</div>
-								</div><!-- /.col -->
-							</div><!-- /.row -->
-							
-							
-						
-						
-						</form>
-				    </div>
-				    <div class="modal-footer">
-				        <button class="btn btn-danger btn-sm" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-				        <input type="submit" value="Registrar" class="btn btn-success btn-sm">
-						
-				    </div>
+				    
+				    
 			  	</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->

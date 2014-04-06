@@ -31,6 +31,11 @@ Route::get('/mega-editar-perfil', array(
 		'uses' => 'HomeController@getEditarPerfil'
 	));
 
+Route::post('/crear-usuario', array(
+		'as' => 'crear-usuario-post',
+		'uses' => 'HomeController@postCrearUsuario'
+	));
+
 Route::get('/mega-info', array('as' =>'mega-info','uses' => 'HomeController@getInformacion'));
 
 Route::get('/mega-favs', array('as' => 'mega-favs', 'uses' => 'HomeController@getFavs'));

@@ -129,6 +129,9 @@
 					</nav>
 				</div>
 				</header>
+				@if(Session::has('message-alert'))
+						<p class="alert alert-danger"> {{Session::get('message-alert')}}</p>
+				@endif
 
 			
 

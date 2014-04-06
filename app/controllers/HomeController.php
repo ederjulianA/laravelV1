@@ -11,6 +11,37 @@ class HomeController extends BaseController {
 		return View::make('home');
 	}
 
+	public function postCrearUsuario(){
+		$validator = Validator::make(Input::all(), Pusers::$rules);
+
+		if($validator->passes()){
+			$user = new Puser;
+			$user->username = 	Input::get('username');
+			$user->email = 	Input::get('email');
+			$user->password = Hash::make(Input::get('password'));
+			$user->tipo = Input::get('tipo');
+			$user->active = 1;
+			$user->password_temp = "";
+			$user->code = "";
+			if($user->save()){
+				die("CREADO");
+
+			}
+			else{
+				die("ERRORES");
+			}
+
+		
+			
+
+		}
+			return Redirect::to('/')
+			->with('message-alert', 'Hubieron algunos Problemas al crear el usuario')
+			->withErrors($validator)
+			->withInput();
+		
+	}
+
 	public function getMega(){
 
 		return View::make('mega.index');
