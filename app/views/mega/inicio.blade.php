@@ -1,7 +1,7 @@
 @extends('plantilla.landing')
 
 @section('content')
-	<div class="container-fluid" style="margin-top:5%;">
+	<div class="container-fluid" style="margin-top:7%;">
 			<div class="row">
 					
 					<div class="col-sm-12 padding-md">
