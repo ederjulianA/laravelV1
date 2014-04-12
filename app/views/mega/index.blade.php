@@ -190,15 +190,19 @@
 							</div><!-- /tab1 -->
 							<div class="tab-pane fade" id="edit">
 								
-								<div class="row">
+							
+								
+								<div class="panel panel-default">
+
+											<div class="row">
 									<div class="panel panel-info pull-right">
 										<div class="panel-body">
 											Ultima Actualizacion Abril 2, 2014
 										</div>
 									</div><!-- /panel -->
 								</div><!-- /.row -->
-								
-								<div class="panel panel-default">
+
+
 									<form class="form-horizontal form-border">
 										<div class="panel-heading">
 											Informacion Basica

@@ -48,49 +48,69 @@
 						
 					<!--  SLIDER DE IMAGENES UTILIZANDO JAVASCRIPT Y BOOTSTRAP-->
 
-							<div id="myCarousel" class="carousel slide">
-								      <!-- Indicators -->
-								      <ol class="carousel-indicators">
-								        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								        <li data-target="#myCarousel" data-slide-to="1"></li>
-								        <li data-target="#myCarousel" data-slide-to="2"></li>
-								      </ol>
-								      <div class="carousel-inner">
-								        <div class="item active">
-								          <img src="{{asset('img/merca2.jpg') }}" data-src="" alt="first slide"  width="100%" />
-								          <div class="container">
-								            <div class="carousel-caption">
-								              <h1></h1>
-								              <p></p>
-								              
-								            </div>
-								          </div>
-								        </div>
-								        <div class="item">
-								        	<img src="{{asset('img/ederjuliana2.png') }}" data-src="" alt="Second slide"  width="100%" />
-								         
-								          <div class="container">
-								            <div class="carousel-caption">
-								              <h1></h1>
-								              <p></p>
-								              <p></p>
-								            </div>
-								          </div>
-								        </div>
-								        <div class="item">
-								          <img src="{{asset('img/xbox2.jpg') }}" data-src="" alt=""  width="100%"  />
-								          <div class="container">
-								            <div class="carousel-caption">
-								              <h1></h1>
-								              <p></p>
-								              <p></p>
-								            </div>
-								          </div>
-								        </div>
-								      </div>
-								      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-								      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-							</div><!-- /.carousel -->
+											<div class="panel panel-default">
+							<div class="panel-heading">
+								Promociones
+								<span class="label label-danger pull-right">Lista de promos</span>
+							</div>
+							<div class="panel-body">
+								<div id="carousel-example-generic" class="carousel slide carousel-custom">
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+										<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item">
+											<div class="row">
+												<div class="col-sm-5">
+													<img src="img/gallery4.jpg" alt="First slide" class="m-bottom-md" style="height:150px;">
+												</div>
+												<div class="col-sm-5">
+													<strong>Gallery1</strong>
+													<p class="m-top-sm">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at.
+													</p>
+												</div><!-- /.col -->
+											</div><!-- /.row -->
+										</div>
+										<div class="item active">
+											<div class="row">
+												<div class="col-sm-5">
+													<img src="img/gallery5.jpg" alt="Second slide" class="m-bottom-md" style="height:150px;">
+												</div>
+												<div class="col-sm-5">
+													<strong>Gallery2</strong>
+													<p class="m-top-sm">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at.
+													</p>
+												</div><!-- /.col -->
+											</div><!-- /.row -->	
+										</div>
+										<div class="item">
+											<div class="row">
+												<div class="col-sm-5">
+													<img src="img/gallery6.jpg" alt="Third Slide" class="m-bottom-md" style="height:150px;">
+												</div>
+												<div class="col-sm-5">
+													<strong>Gallery3</strong>
+													<p class="m-top-sm">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at.
+													</p>
+												</div><!-- /.col -->	
+											</div><!-- /.row -->
+										</div>
+									</div>
+									
+									
+								</div>
+								
+								<div class="text-right">
+									<a class="btn btn-default btn-sm" href="#carousel-example-generic" data-slide="prev">Prev</a>
+									<a class="btn btn-default btn-sm" href="#carousel-example-generic" data-slide="next">Next</a>
+								</div>
+							</div>
+						</div><!-- /panel -->
 					</div><!-- /.col -->
 
 				<!--  FIN SECCION DATOS DE EMPRESA MAS PROMOS##################################################  -->	

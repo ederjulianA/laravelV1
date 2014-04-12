@@ -258,6 +258,11 @@
 	<!-- Jquery -->
 	{{ HTML::script('js/jquery-1.10.2.min.js')}}
 
+
+
+	<!-- endless-form -->
+	{{ HTML::script('js/endless/endless_form.js')}}
+
 	<!-- CARRUSEL -->
 	{{ HTML::script('js/carousel.js')}}
 	

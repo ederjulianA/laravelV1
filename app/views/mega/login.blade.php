@@ -1,7 +1,7 @@
 @extends('plantilla.landing')
 
 @section('content')
-					<div class="login-wrapper">
+	<div class="login-wrapper">
 		<div class="text-center">
 			<h2 class="fadeInUp animation-delay8" style="font-weight:bold">
 				<span class="text-warning">Megalopolis</span> <span style="color:#ccc; text-shadow:0 1px #fff"></span>
