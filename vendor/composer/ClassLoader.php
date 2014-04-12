@@ -2,6 +2,8 @@
 
 /*
  * This file is part of Composer.
+
+ MODIFICACION PARA SUBIR A GIT
  *
  * (c) Nils Adermann <naderman@naderman.de>
  *     Jordi Boggiano <j.boggiano@seld.be>

@@ -1,0 +1,63 @@
+From 64f3c38b61c75f912941635ef02265a9ee79413b Mon Sep 17 00:00:00 2001
+From: ederjulianA <ederalvarez2091057@gmail.com>
+Date: Sat, 12 Apr 2014 10:22:41 -0500
+Subject: [PATCH] links js
+
+---
+ app/views/plantilla/mega.blade.php | 31 +++++++++++++++++++++++++++++--
+ 1 file changed, 29 insertions(+), 2 deletions(-)
+
+diff --git a/app/views/plantilla/mega.blade.php b/app/views/plantilla/mega.blade.php
+index 03be32e..08a4eba 100644
+--- a/app/views/plantilla/mega.blade.php
++++ b/app/views/plantilla/mega.blade.php
+@@ -258,10 +258,28 @@
+ 	<!-- Jquery -->
+ 	{{ HTML::script('js/jquery-1.10.2.min.js')}}
+ 
++	<!-- chosen -->
++	{{ HTML::script('js/chosen.jquery.min.js')}}
+ 
++	<!-- chosen -->
++	{{ HTML::script('js/chosen.jquery.min.js')}}
+ 
+-	<!-- endless-form -->
+-	{{ HTML::script('js/endless/endless_form.js')}}
++
++	<!-- datepicker -->
++	{{ HTML::script('js/bootstrap-datepicker.min.js')}}
++
++
++	<!-- timepicker -->
++	{{ HTML::script('js/bootstrap-timepicker.min.js')}}
++
++	<!-- tagsinput -->
++	{{ HTML::script('js/jquery.tagsinput.min.js')}}
++
++	<!-- tagsinput -->
++	{{ HTML::script('js/jquery.maskedinput.min.js')}}
++
++
++	
+ 
+ 	<!-- CARRUSEL -->
+ 	{{ HTML::script('js/carousel.js')}}
+@@ -301,6 +319,15 @@
+ 
+ 	<!-- Endless -->
+ 	{{ HTML::script('js/endless/endless.js')}}
++
++	<!-- waypoinst -->
++	{{ HTML::script('js/waypoints.min.js')}}
++
++	<!-- Endless -->
++	{{ HTML::script('js/endless/endless.js')}}
++
++	<!-- wyshtml5 -->
++	{{ HTML::script('js/wysihtml5-0.3.0.min.js')}}
+ 	
+ 	@yield('scripts')
+ 
+-- 
+1.8.4.msysgit.0
+
