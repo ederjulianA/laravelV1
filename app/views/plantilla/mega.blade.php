@@ -258,10 +258,28 @@
 	<!-- Jquery -->
 	{{ HTML::script('js/jquery-1.10.2.min.js')}}
 
+	<!-- chosen -->
+	{{ HTML::script('js/chosen.jquery.min.js')}}
+
+	<!-- chosen -->
+	{{ HTML::script('js/chosen.jquery.min.js')}}
 
 
-	<!-- endless-form -->
-	{{ HTML::script('js/endless/endless_form.js')}}
+	<!-- datepicker -->
+	{{ HTML::script('js/bootstrap-datepicker.min.js')}}
+
+
+	<!-- timepicker -->
+	{{ HTML::script('js/bootstrap-timepicker.min.js')}}
+
+	<!-- tagsinput -->
+	{{ HTML::script('js/jquery.tagsinput.min.js')}}
+
+	<!-- tagsinput -->
+	{{ HTML::script('js/jquery.maskedinput.min.js')}}
+
+
+	
 
 	<!-- CARRUSEL -->
 	{{ HTML::script('js/carousel.js')}}
@@ -301,6 +319,15 @@
 
 	<!-- Endless -->
 	{{ HTML::script('js/endless/endless.js')}}
+
+	<!-- waypoinst -->
+	{{ HTML::script('js/waypoints.min.js')}}
+
+	<!-- Endless -->
+	{{ HTML::script('js/endless/endless.js')}}
+
+	<!-- wyshtml5 -->
+	{{ HTML::script('js/wysihtml5-0.3.0.min.js')}}
 	
 	@yield('scripts')
 
