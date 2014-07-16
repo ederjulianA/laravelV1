@@ -48,7 +48,7 @@
 						
 					<!--  SLIDER DE IMAGENES UTILIZANDO JAVASCRIPT Y BOOTSTRAP-->
 
-											<div class="panel panel-default">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								Promociones
 								<span class="label label-danger pull-right">Lista de promos</span>
